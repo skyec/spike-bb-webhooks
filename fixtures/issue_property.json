@@ -1,0 +1,25 @@
+{
+   "id" :  1 ,
+   "component" :  "component" ,
+   "title" :  "Issue title" ,
+   "content" : {
+     "raw" :  "Issue description" ,
+     "html" :  "<p>Issue description</p>" ,
+     "markup" :  "markdown"
+   },
+   "priority" :  "trivial|minor|major|critical|blocker" ,
+   "state" :  "new|open|on hold|resolved|duplicate|invalid|wontfix|closed" ,
+   "type" :  "bug|enhancement|proposal|task" ,
+   "milestone" : {  "name" :  "milestone 1"  },
+   "version" : {  "name" :  "version 1"  },
+   "created_on" :  "2015-04-06T15:23:38.179678+00:00" ,
+   "updated_on" :  "2015-04-06T15:23:38.179678+00:00" ,
+  "links": {
+    "self": {
+      "href": "https://api.bitbucket.org/api/2.0/issues/issue_id"
+    },
+    "html": {
+      "href": "https://api.bitbucket.org/issue_id"
+    }
+  }
+}
