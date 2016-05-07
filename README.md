@@ -1,6 +1,6 @@
-# Spike to learn about the BitBucket Webhook API
+# Spike to Learn About the BitBucket Webhook API
 
-Implement a simple HTTP service that dumps various fields from BitBucket
+Implement a simple HTTP service in Go (golang) that dumps various fields from BitBucket
 webhooks.
 
 https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html
